@@ -1,0 +1,4 @@
+templateScript: /HbcCmsDemo/templates/components/header_comp.ftl
+renderType: freemarker
+title: Header Content
+modelClass: com.hbc.cms.demo.testComponentModel

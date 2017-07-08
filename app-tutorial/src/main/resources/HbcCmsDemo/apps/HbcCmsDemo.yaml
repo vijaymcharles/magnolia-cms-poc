@@ -1,0 +1,47 @@
+appClass: info.magnolia.ui.contentapp.ContentApp
+icon: icon-app
+label: HbcCmsDemo
+subApps:
+  browser:
+    subAppClass: info.magnolia.ui.contentapp.browser.BrowserSubApp
+    class: info.magnolia.ui.contentapp.browser.BrowserSubAppDescriptor
+    contentConnector:
+     class: info.magnolia.ui.vaadin.integration.contentconnector.JcrContentConnectorDefinition
+     implementationClass: info.magnolia.ui.vaadin.integration.contentconnector.JcrContentConnector
+     workspace: HbcCmsDemo
+      
+    workbench:
+      dropConstraintClass: info.magnolia.ui.workbench.tree.drop.AlwaysTrueDropConstraint
+      editable: false
+
+      contentViews:
+        - name: tree
+          class: info.magnolia.ui.workbench.tree.TreePresenterDefinition
+          columns: &myColumns
+            - name: name
+              editable: true
+              sortable: true
+              propertyName: jcrName
+              class: info.magnolia.ui.workbench.column.definition.PropertyColumnDefinition
+            - name: status
+              width: 45
+              displayInChooseDialog: false
+              formatterClass: info.magnolia.ui.workbench.column.StatusColumnFormatter
+              class: info.magnolia.ui.workbench.column.definition.StatusColumnDefinition
+            - name: moddate
+              width: 160
+              sortable: true
+              displayInChooseDialog: false
+              formatterClass: info.magnolia.ui.workbench.column.DateColumnFormatter
+              propertyName: mgnl:lastModified
+              class: info.magnolia.ui.workbench.column.definition.MetaDataColumnDefinition
+        - name: list
+          class: info.magnolia.ui.workbench.list.ListPresenterDefinition
+          columns: *myColumns
+        - name: thumbnail
+          class: info.magnolia.ui.workbench.thumbnail.ThumbnailPresenterDefinition
+        - name: search
+          class: info.magnolia.ui.workbench.search.SearchPresenterDefinition
+          columns: *myColumns
+          
+   

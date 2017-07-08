@@ -1,0 +1,40 @@
+{
+    "slides": [
+        {
+            "component_type": "GlobalPromotionMessage",
+            "title": "carousel 1",
+            "link": "Detail"
+        },
+        {
+            "component_type": "GlobalPromotionMessage",
+            "title": "carousel 2",
+            "link": "Detail"
+        },
+        {
+            "component_type": "GlobalPromotionMessage",
+            "title": "carousel 3",
+            "link": "Detail"
+        },
+        {
+            "component_type": "GlobalPromotionMessage",
+            "title": "carousel 4",
+            "link": "Detail"
+        },
+        {
+            "component_type": "GlobalPromotionMessage",
+            "title": "carousel 5",
+            "link": "Detail"
+        },
+        {
+            "component_type": "GlobalPromotionMessage",
+            "title": "carousel 6",
+            "link": "Detail"
+        },
+        {
+            "component_type": "GlobalPromotionMessage",
+            "title": "carousel 7",
+            "link": "Detail"
+        }
+    ],
+    "slides_to_show": 3
+}

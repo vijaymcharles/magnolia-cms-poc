@@ -1,0 +1,3 @@
+templateScript: /one-pager-module/templates/components/header_comp.ftl
+renderType: freemarker
+title: Header Content

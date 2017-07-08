@@ -1,0 +1,5 @@
+templateScript: /HbcCmsDemo/templates/components/hero-test.ftl
+renderType: freemarker
+dialog: HbcCmsDemo:components/hero-test
+title: HERO test Content
+modelClass: com.hbc.cms.demo.testComponentModel

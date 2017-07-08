@@ -1,0 +1,5 @@
+templateScript: /HbcCmsDemo/templates/components/tabbed_hero_carousel_slide_comp.ftl
+renderType: freemarker
+dialog: HbcCmsDemo:components/tabbed-hero-slide
+title: Tabbed Hero Slide
+modelClass: com.hbc.cms.demo.heroSlideComponentModel

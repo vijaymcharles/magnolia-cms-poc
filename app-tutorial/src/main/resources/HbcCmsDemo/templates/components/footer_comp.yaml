@@ -1,0 +1,4 @@
+templateScript: /HbcCmsDemo/templates/components/footer_comp.ftl
+renderType: freemarker
+title: Footer Content
+modelClass: com.hbc.cms.demo.testComponentModel

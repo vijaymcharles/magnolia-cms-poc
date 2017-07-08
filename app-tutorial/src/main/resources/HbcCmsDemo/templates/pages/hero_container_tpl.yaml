@@ -1,0 +1,15 @@
+title: 0 HBC Hero Container Template - Module
+templateScript: /HbcCmsDemo/templates/pages/hero_container_tpl.ftl 
+renderType: freemarker 
+visible: true
+dialog: HbcCmsDemo:pages/basic_dialog
+areas:
+  body:
+    renderType: freemarker    
+    availableComponents:  
+      tabbed_hero_slide_comp:
+        id: HbcCmsDemo:components/tabbed_hero_carousel_slide_comp 
+      hero-test:
+        id: HbcCmsDemo:components/hero-test
+      aboutus_comp:
+        id: HbcCmsDemo:components/aboutus_comp    

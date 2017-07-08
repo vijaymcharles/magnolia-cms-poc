@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.sourceforge.openutils:openutils-log4j:2.0.5-MAGNOLIA-6546-patched">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/openutils/openutils-log4j/2.0.5-MAGNOLIA-6546-patched/openutils-log4j-2.0.5-MAGNOLIA-6546-patched.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/openutils/openutils-log4j/2.0.5-MAGNOLIA-6546-patched/openutils-log4j-2.0.5-MAGNOLIA-6546-patched-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/openutils/openutils-log4j/2.0.5-MAGNOLIA-6546-patched/openutils-log4j-2.0.5-MAGNOLIA-6546-patched-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

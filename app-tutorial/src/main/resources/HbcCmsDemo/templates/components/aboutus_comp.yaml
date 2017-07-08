@@ -1,0 +1,4 @@
+templateScript: /HbcCmsDemo/templates/components/aboutus_comp.ftl
+renderType: freemarker
+dialog: HbcCmsDemo:components/aboutus_comp
+title: Static Content

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hbc-core/hbc-core.iml" filepath="$PROJECT_DIR$/hbc-core/hbc-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbccms.iml" filepath="$PROJECT_DIR$/hbccms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbccms-webapp/hbccms-webapp.iml" filepath="$PROJECT_DIR$/hbccms-webapp/hbccms-webapp.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+form:
+  tabs:
+    - name: tabTexts
+      label: Tabbed HERO Carousel Container
+      fields:
+        - name: linkSlide1
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: Select Slide 1
+          appName: pages
+        - name: linkSlide2
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: Select Slide 2
+          appName: pages
+        - name: linkSlide3
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: Select Slide 3
+          appName: pages
+        - name: linkSlide4
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: Select Slide 4
+          appName: pages
+        - name: disclaimer_text
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Disclaimer Text
+          tables: true
+          source: true
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

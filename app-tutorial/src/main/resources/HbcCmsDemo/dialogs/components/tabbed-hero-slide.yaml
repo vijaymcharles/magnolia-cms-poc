@@ -1,0 +1,151 @@
+form:
+  tabs:
+    - name: tabTexts
+      label: Carousel Slide
+      fields:
+        - name: tab_headline1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Headline1Label
+        - name: tab_headline2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Headline2Label
+        - name: subhead1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: SubHeadline1Label
+        - name: headline
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: HeadlineLabel
+        - name: HeadlineHexColorLabel
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: HeadlineHexColorLabel
+        - name: HeadlineScript
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: HeadlineScript
+        - name: headline_font
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: HeadlineFontLabel
+        - name: subhead2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: SubHeadline2Label
+        - name: body_copy1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: BodyCopy1Label
+        - name: subhead3
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: SubHeadline3Label
+        - name: cta1_label
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Cta1LabelLabel
+        - name: cta1_url
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          appName: pages
+          label: Cta1UrlLabel
+          appName: pages
+        - name: Cta1TargetLabel
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: Cta1TargetLabel
+          options:
+            - name: sameWindow
+              value: _same
+              selected: true
+              label: Open In Same Window
+            - name: newWindow
+              value: _blank
+              label: Open In New Window
+        - name: cta1_mobile_url
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: MobileCta1UrlLabel
+          appName: pages
+        - name: SreTag1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: SreTag1
+        - name: body_copy2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: BodyCopy2Label
+        - name: cta2_label
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Cta2LabelLabel
+        - name: cta2_url
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: Cta2UrlLabel
+          appName: pages
+        - name: Cta2TargetLabel
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: Cta2TargetLabel
+          options:
+            - name: sameWindow
+              value: _same
+              selected: true
+              label: Open In Same Window
+            - name: newWindow
+              value: _blank
+              label: Open In New Window 
+        - name: cta2_mobile_url
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: MobileCta2UrlLabel
+          appName: pages
+        - name: SreTag2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: SreTag2
+        - name: DefaultCtaLabel          
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: DefaultCtaLabel
+          options:
+            - name: cta1
+              value: cta1
+              selected: true
+              label: CTA1
+            - name: cta2
+              value: cta2
+              label: CTA2          
+        - name: background_image_alt_text
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: BackgroundImageAltTextLabel
+        - name: ForegroundImageAltTextLabel
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: ForegroundImageAltTextLabel
+        - name: background_image
+          label: Background Image
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          appName: assets
+          contentPreviewDefinition:
+               contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+          targetWorkspace: dam
+        - name: foreground_image
+          label: Foreground Image
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          appName: assets          
+          contentPreviewDefinition:
+               contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+          targetWorkspace: dam
+        - name: live_copy_font_color  
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: LiveCopyFontLabel
+          options:
+            - name: black
+              value: black
+              selected: true
+              label: BLACK
+            - name: white
+              value: white
+              label: WHITE          
+    - name: tabBackgroundImage1
+      label: Background Image
+      fields:
+        - name: background_image1
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: Select Background Image
+          appName: assets
+    - name: tabForegroundImage1
+      label: Foreground Image
+      fields:
+        - name: fgimage1
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          label: Select Foreground Image
+          appName: assets
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

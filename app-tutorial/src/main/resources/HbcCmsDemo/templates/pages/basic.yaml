@@ -1,0 +1,25 @@
+title: 0 HBC HP Basic Template
+templateScript: /HbcCmsDemo/templates/pages/aboutus.ftl 
+renderType: freemarker 
+visible: true
+dialog: HbcCmsDemo:pages/basic_dialog
+areas:
+  header:
+    renderType: freemarker
+    availableComponents:
+      header_comp:
+        id: HbcCmsDemo:components/header_comp
+  body:
+    renderType: freemarker    
+    availableComponents:
+      tabbed_hero_carousel_comp:
+        id: HbcCmsDemo:components/tabbed_hero_carousel_container_comp     
+      hero-test:
+        id: HbcCmsDemo:components/hero-test
+      aboutus_comp:
+        id: HbcCmsDemo:components/aboutus_comp     
+  footer:
+    renderType: freemarker    
+    availableComponents:    
+      footer_comp:
+        id: HbcCmsDemo:components/footer_comp
