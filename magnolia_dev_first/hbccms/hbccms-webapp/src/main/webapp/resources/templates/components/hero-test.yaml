@@ -1,4 +1,0 @@
-templateScript: /one-pager-module/templates/components/hero-test.ftl
-renderType: freemarker
-dialog: one-pager-module:components/hero-test
-title: HERO test Content

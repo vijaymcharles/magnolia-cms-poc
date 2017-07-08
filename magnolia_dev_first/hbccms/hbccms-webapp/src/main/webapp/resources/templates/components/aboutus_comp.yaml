@@ -1,4 +1,0 @@
-templateScript: /one-pager-module/templates/components/aboutus_comp.ftl
-renderType: freemarker
-dialog: one-pager-module:components/aboutus_comp
-title: Static Content
